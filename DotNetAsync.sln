@@ -3,7 +3,55 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.ThreadingBasics", "1.ThreadingBasics\1.ThreadingBasics.csproj", "{1F647F0C-73A2-455F-9269-A578DBE0D3D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.ThreadPool", "2.ThreadPool\2.ThreadPool.csproj", "{985527EF-5308-4687-A2C2-ECFD78B5AD10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.ThreadSynchronization", "3.ThreadSynchronization\3.ThreadSynchronization.csproj", "{7873AB12-7598-4163-B9B5-665145C8EE80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.ParallelFramework", "4.ParallelFramework\4.ParallelFramework.csproj", "{6B3B65A1-8992-483C-BBED-23B4B6AFC451}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.ParallelLinq", "5.ParallelLinq\5.ParallelLinq.csproj", "{F60EFA42-8E9D-4DB6-B073-8EDC6E12EDBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.Dataflow", "6.Dataflow\6.Dataflow.csproj", "{EB2B688E-5DEC-4AC6-8CFF-D3F6F77A4EAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.ReactiveExtensions", "7.ReactiveExtensions\7.ReactiveExtensions.csproj", "{1197BF69-9298-432C-908E-A0690DED94D8}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F647F0C-73A2-455F-9269-A578DBE0D3D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F647F0C-73A2-455F-9269-A578DBE0D3D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F647F0C-73A2-455F-9269-A578DBE0D3D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F647F0C-73A2-455F-9269-A578DBE0D3D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{985527EF-5308-4687-A2C2-ECFD78B5AD10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{985527EF-5308-4687-A2C2-ECFD78B5AD10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{985527EF-5308-4687-A2C2-ECFD78B5AD10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{985527EF-5308-4687-A2C2-ECFD78B5AD10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7873AB12-7598-4163-B9B5-665145C8EE80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7873AB12-7598-4163-B9B5-665145C8EE80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7873AB12-7598-4163-B9B5-665145C8EE80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7873AB12-7598-4163-B9B5-665145C8EE80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B3B65A1-8992-483C-BBED-23B4B6AFC451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B3B65A1-8992-483C-BBED-23B4B6AFC451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B3B65A1-8992-483C-BBED-23B4B6AFC451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B3B65A1-8992-483C-BBED-23B4B6AFC451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F60EFA42-8E9D-4DB6-B073-8EDC6E12EDBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60EFA42-8E9D-4DB6-B073-8EDC6E12EDBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60EFA42-8E9D-4DB6-B073-8EDC6E12EDBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60EFA42-8E9D-4DB6-B073-8EDC6E12EDBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB2B688E-5DEC-4AC6-8CFF-D3F6F77A4EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB2B688E-5DEC-4AC6-8CFF-D3F6F77A4EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB2B688E-5DEC-4AC6-8CFF-D3F6F77A4EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB2B688E-5DEC-4AC6-8CFF-D3F6F77A4EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1197BF69-9298-432C-908E-A0690DED94D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1197BF69-9298-432C-908E-A0690DED94D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1197BF69-9298-432C-908E-A0690DED94D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1197BF69-9298-432C-908E-A0690DED94D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
