@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/1.ThreadingBasics/obj/Debug
+/1.ThreadingBasics/bin/Debug
+*.suo
+/2.ThreadPool/obj/Debug
+/3.ThreadSynchronization/obj/Debug
+/4.ParallelFramework/obj/Debug
+/5.ParallelLinq/obj/Debug
+/6.Dataflow/obj/Debug
+/7.ReactiveExtensions/obj/Debug

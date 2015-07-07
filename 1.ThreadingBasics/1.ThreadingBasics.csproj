@@ -41,8 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExceptionHandlingExample.cs" />
+    <Compile Include="ParameterizedThreadExample.cs" />
+    <Compile Include="ParameterizedThreadWithLambdaExpressionExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleThreadExample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
