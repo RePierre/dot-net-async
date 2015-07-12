@@ -41,6 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CancellationExample.cs" />
+    <Compile Include="OrderedParallelLinqExample.cs" />
+    <Compile Include="ParallelAggregationExample.cs" />
+    <Compile Include="ParallelLinqExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

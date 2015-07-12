@@ -15,3 +15,5 @@
 /2.ThreadPooling/obj/Debug
 /3.ThreadSynchronization/bin/Debug
 /4.ParallelFramework/bin/Debug
+/5.ParallelLinq/bin/Debug
+*.user
