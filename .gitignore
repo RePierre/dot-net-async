@@ -17,3 +17,4 @@
 /4.ParallelFramework/bin/Debug
 /5.ParallelLinq/bin/Debug
 *.user
+/6.Dataflow/bin/Debug
