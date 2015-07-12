@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.ParallelLinq", "5.Paralle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.Dataflow", "6.Dataflow\6.Dataflow.csproj", "{EB2B688E-5DEC-4AC6-8CFF-D3F6F77A4EAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.ReactiveExtensions", "7.ReactiveExtensions\7.ReactiveExtensions.csproj", "{1197BF69-9298-432C-908E-A0690DED94D8}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.ThreadPooling", "2.ThreadPooling\2.ThreadPooling.csproj", "{985527EF-5308-4687-A2C2-ECFD78B5AD10}"
 EndProject
 Global
@@ -43,10 +41,6 @@ Global
 		{EB2B688E-5DEC-4AC6-8CFF-D3F6F77A4EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB2B688E-5DEC-4AC6-8CFF-D3F6F77A4EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB2B688E-5DEC-4AC6-8CFF-D3F6F77A4EAD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1197BF69-9298-432C-908E-A0690DED94D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1197BF69-9298-432C-908E-A0690DED94D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1197BF69-9298-432C-908E-A0690DED94D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1197BF69-9298-432C-908E-A0690DED94D8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{985527EF-5308-4687-A2C2-ECFD78B5AD10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{985527EF-5308-4687-A2C2-ECFD78B5AD10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{985527EF-5308-4687-A2C2-ECFD78B5AD10}.Release|Any CPU.ActiveCfg = Release|Any CPU
