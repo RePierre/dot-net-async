@@ -18,3 +18,5 @@
 /5.ParallelLinq/bin/Debug
 *.user
 /6.Dataflow/bin/Debug
+/BruteForce/bin/Debug
+/BruteForce/obj/Debug
